@@ -1,0 +1,42 @@
+{
+  "name": "saber",
+  "version": "3.1.1",
+  "scripts": {
+    "dev": "vite --host",
+    "prod": "vite --mode production",
+    "build": "vite build",
+    "build:prod": "vite build --mode production",
+    "serve": "vite preview --host"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "@saber/nf-design-base-elp": "^1.0.0",
+    "@smallwei/avue": "^3.2.16",
+    "animate.css": "^4.1.1",
+    "avue-plugin-ueditor": "^1.0.1",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.10.6",
+    "element-plus": "^2.3.1",
+    "js-base64": "^3.7.4",
+    "js-cookie": "^3.0.0",
+    "js-md5": "^0.7.3",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "vite-plugin-mock": "^2.9.4",
+    "vue": "^3.2.40",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "prettier": "^2.8.7",
+    "sass": "^1.37.5",
+    "unplugin-auto-import": "^0.11.2",
+    "vite": "^2.4.4",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0"
+  }
+}
